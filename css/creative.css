@@ -407,7 +407,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/front/h2_web_small.jpg');
+  background-image: url('../img/front/h2_web_small');
   text-align: center;
   color: white;
 }
