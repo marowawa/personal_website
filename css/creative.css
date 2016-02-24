@@ -407,7 +407,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/front/h2_web.JPG');
+  background-image: url('../img/front/h2_web_small.JPG');
   text-align: center;
   color: white;
 }
@@ -515,10 +515,10 @@ header .header-content .header-content-inner p {
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
   text-transform: uppercase;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 10px;
 }
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-  font-size: 18px;
+  font-size: 14px;
 }
 .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
@@ -528,7 +528,7 @@ header .header-content .header-content-inner p {
     font-size: 16px;
   }
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-    font-size: 22px;
+    font-size: 18px;
   }
 }
 .call-to-action h2 {
