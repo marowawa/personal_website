@@ -287,7 +287,7 @@ header .header-content .header-content-inner h1 {
   font-size: 7vmin !important;
 }
 .btn-xl {
-  padding: 10px 20px !important;
+  padding: 13px 26px !important;
   font-size: 3.5vmin !important;
 }
 
@@ -296,12 +296,16 @@ header .header-content .header-content-inner h1 {
     header {
     min-height: 100%;
   }
+  .btn-xl {
+  padding: 13px 26px !important;
+  font-size: 2.8vmin !important;
+}
 
   header .header-content {
     position: absolute;
       text-align: center;
     top: 50% !important;
-        left:46% !important;
+        left:40% !important;
 /*    -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);*/
@@ -309,12 +313,34 @@ header .header-content .header-content-inner h1 {
   font-size: 2.5vmin;
   }
 
+  header .header-content .header-content-inner h1 {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 5.2vmin !important;
 }
+
+}
+
+/*@media (min-width: 650px) {
+    header {
+    min-height: 100%;
+  }
+  .btn-xl {
+  padding: 13px 26px !important;
+  font-size: 2.8vmin !important;
+}
+}*/
 
 @media (min-width: 880px) {
     header {
     min-height: 100%;
   }
+
+  header .header-content .header-content-inner h1 {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 5.2vmin !important;
+}
 
   header .header-content {
     position: absolute;
@@ -337,6 +363,11 @@ header .header-content .header-content-inner h1 {
     margin-left: auto;
     margin-right: auto;
   }
+
+  .btn-xl {
+  padding: 13px 26px !important;
+  font-size: 2.6vmin !important;
+}
 
   .navbar-default {
     background-color: transparent;
@@ -402,10 +433,17 @@ header .header-content .header-content-inner h1 {
     padding: 0 20px;
   }
 
-  .btn-xl {
-  padding: 15px 30px;
-  font-size: 2.6vmin;
+  header .header-content .header-content-inner h1 {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 6vmin !important;
 }
+
+  .btn-xl {
+  padding: 13px 26px !important;
+  font-size: 2.6vmin !important;
+}
+
   .navbar-default {
     background-color: transparent;
     border-color: rgba(255, 255, 255, 0.3);
@@ -525,6 +563,11 @@ header .header-content .header-content-inner p {
     margin-left: auto;
     margin-right: auto;
   }
+    header .header-content .header-content-inner h1 {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 6vmin !important;
+}
   header .header-content .header-content-inner p {
     font-size: 18px;
     max-width: 80%;
@@ -713,8 +756,8 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-xl {
 /*  padding: 8% 16%;*/
-    padding: 15px 30px;
-  font-size: 3vmin
+    padding: 13px 26px ;
+  font-size: 2.6vmin ;
 }
 ::-moz-selection {
   color: white;
