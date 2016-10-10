@@ -276,6 +276,23 @@ aside {
     color: #0000B3;
 }
 
+  /* ANGELLIST */
+ .navbar-default .social .fa-angellist {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+ .navbar-default .social .fa-angellist:hover {
+    color: white;
+}
+
+ .navbar-default.affix .social .fa-angellist {
+    color: #222222;
+  }
+
+ .navbar-default.affix .social .fa-angellist:hover {
+    color: #5F021F;
+}
+
 
   .navbar-default .social{
   display: none;
